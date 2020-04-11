@@ -1,1 +1,17 @@
-* {}
+body {
+  margin: 0 auto;
+}
+.centered-image {
+  position: absolute;
+  display: block;
+  top: 2.5%;
+  left: 37.5%;
+  width: 25%;
+}
+.background-image {
+  width: 100%;
+}
+.header-image-container {
+  top: 0;
+  left: 0;
+}
