@@ -1,17 +1,50 @@
+html {
+  height: 100%;
+}
 body {
   margin: 0 auto;
-}
-.centered-image {
-  position: absolute;
+  height: 100%;
   display: block;
+}
+.content {
+  position: relative;
+  marign: 0 auto;
+  text-align: center;
+  margin-top: -5%;
+}
+.header-container {
+  position: relative;
+}
+.header-image-container {
+  display: block;
+  position: absolute;
   top: 2.5%;
-  left: 37.5%;
+  width: 100%;
+  animation: header-fade-in;
+  animation-duration: 1.5s;
+}
+.header-image {
+  display: block;
+  margin: 0 auto;
   width: 25%;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  margin: 0 auto;
 }
 .background-image {
   width: 100%;
+  z-index: -9999;
 }
-.header-image-container {
-  top: 0;
-  left: 0;
+@keyframes header-fade-in {
+  0% {
+    top: 10%;
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
 }
