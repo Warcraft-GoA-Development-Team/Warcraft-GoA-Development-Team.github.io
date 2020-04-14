@@ -9,9 +9,16 @@ body {
 nav {
   position: fixed;
   text-align: center;
+  top: 0px;
+  width:100%;
+  background: red;
+}
+footer{
+  position: fixed;
+  text-align: center;
   bottom: 0px;
   width:100%;
-  border: solid;
+  background: red;
 }
 .content {
   position: relative;
